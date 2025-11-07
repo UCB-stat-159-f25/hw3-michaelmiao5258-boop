@@ -3,7 +3,7 @@ version: 1
 project:
   title: HW03 – LIGO Signals
   authors:
-    - name: Lin Da Miao   # 改成你的名字
+    - name: Lin Da Miao 
   toc:
     - file: index.md
     - file: LOSC_Event_tutorial.ipynb

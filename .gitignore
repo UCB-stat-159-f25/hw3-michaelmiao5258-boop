@@ -1,2 +1,17 @@
-# MyST build outputs
-_build
+# bytecode & caches
+__pycache__/
+*.py[cod]
+
+# notebooks
+.ipynb_checkpoints/
+
+# MyST build output
+_build/
+
+# generated artifacts (keep dirs but ignore files)
+figures/*
+audio/*
+!figures/.gitkeep
+!audio/.gitkeep
+
+ligotools.egg-info/
